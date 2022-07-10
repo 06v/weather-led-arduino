@@ -3,7 +3,7 @@
 <div align="center">
   <img src="https://media.discordapp.net/attachments/914194110330576906/995748567090216970/unknown.png?width=500&height=374" id="center">
   <p align="center">
-    Created by [Enes](https://www.enes.vip/)
+    Created by <a href="https://enes.vip" target="_blank">Enes</a>
   </p>
 </div>
 
