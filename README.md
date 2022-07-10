@@ -100,7 +100,7 @@ def sendData(s):
     <img src="https://media.discordapp.net/attachments/914194110330576906/995750084157386822/unknown.png?width=1300&height=300">
 </div>
 	
-## Related books
+## Related sources
 - [The ALA library](https://github.com/bportaluri/ALA)
 - [The Openweather API](https://openweathermap.org/api)
 
