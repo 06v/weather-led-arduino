@@ -106,9 +106,9 @@ def sendData(s):
 
 ## Contact
 <p align="left">
-  <span><a title="Website" href="https://enes.vip" class="icon" target="_blank"><i class="fa fa-envelope" style="font-size: 18pt;"></i> Website</a></span>
-  <span><a title="Instagram" href="https://instagram.com/enesvierzwei" class="icon" target="_blank"><i class="fa fa-envelope" style="font-size: 18pt;"></i> Instagram</a></span>
-  <span><a title="Twitter" href="https://www.twitter.com/daddyenes" class="icon" target="_blank"><i class="fa fa-envelope"></i> Twitter</a></span>
-  <span><a title="Email" href="mailto:contact@enes.vip" class="icon" target="_blank"><i class="fa fa-envelope" style="font-size: 18pt;"></i> Email</a></span>
-  <span><a title="Website" href="https://discords.com/bio/p/gore" class="icon" target="_blank"><i class="fa fa-envelope" style="font-size: 18pt;"></i> Discord</a></span>
+  <span><a title="Website" href="https://enes.vip" target="_blank">Website</a></span> -
+  <span><a title="Instagram" href="https://instagram.com/enesvierzwei" target="_blank">Instagram</a></span> - 
+  <span><a title="Twitter" href="https://www.twitter.com/daddyenes" target="_blank">Twitter</a></span> - 
+  <span><a title="Email" href="mailto:contact@enes.vip" target="_blank">Email</a></span> - 
+  <span><a title="Discord" href="https://discords.com/bio/p/gore" target="_blank">Discord</a></span>
 </p>
