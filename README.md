@@ -108,7 +108,5 @@ def sendData(s):
 <p align="left">
   <span><a title="Website" href="https://enes.vip" target="_blank">Website</a></span> -
   <span><a title="Instagram" href="https://instagram.com/enesvierzwei" target="_blank">Instagram</a></span> - 
-  <span><a title="Twitter" href="https://www.twitter.com/daddyenes" target="_blank">Twitter</a></span> - 
-  <span><a title="Email" href="mailto:contact@enes.vip" target="_blank">Email</a></span> - 
-  <span><a title="Discord" href="https://discords.com/bio/p/gore" target="_blank">Discord</a></span>
+  <span><a title="Email" href="mailto:contact@enes.vip" target="_blank">Email</a></span>
 </p>
