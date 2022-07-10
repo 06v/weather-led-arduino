@@ -38,47 +38,47 @@ def main():
 Whilst the Arduino Port is equal to None - meaning not connected through USB - it will keep checking the USB Ports of our devices (Raspberry Pi, Laptop, PC) for new plug-ins. If the Arduino has been plugged in to the device, it will automatically establish a connection using the Port
 ```python
 while(port==None):
-	port = getPort()
-	if port==None:
-		print("[-] Failed to find an connected Arduino.\nRetrying in 5 seconds..")
-		time.sleep(5)
-	try:
-		arduino = serial.Serial(port, 9600, timeout=1)
-		print(f"[+] Successfully connected with Port {port}")
-	except:
-		print("[-] Failed to find an connected Arduino.\nRetrying in 5 seconds..")
-		time.sleep(5)
-		pass
+    port = getPort()
+    if port==None:
+        print("[-] Failed to find an connected Arduino.\nRetrying in 5 seconds..")
+	time.sleep(5)
+    try:
+	arduino = serial.Serial(port, 9600, timeout=1)
+	print(f"[+] Successfully connected with Port {port}")
+    except:
+	print("[-] Failed to find an connected Arduino.\nRetrying in 5 seconds..")
+	time.sleep(5)
+	pass
 ```
 
-Our USB Ports are foud using the `"list_ports"` method of the serial library.
+Our USB Ports are found using the `"list_ports"` method of the serial library.
 ```python
 ports = serial.tools.list_ports.comports()
-	for p in ports:
-		print(p)
-		if "Arduino" in p[1]:
-			port = p[0]
-			print("[+] Found Arduino Port:", port)
-	return port
+for p in ports:
+    print(p)
+    if "Arduino" in p[1]:
+        port = p[0]
+        print("[+] Found Arduino Port:", port)
+return port
 ```
 
 Next, we send a request to the weather API. This will respond with data such as if the weather is cloudy, rainy, clear and so on.<br/> Fahrenheit is also returned, allthough I have converted it to celcius in the Python program.
 ```python
 def trackWeather():
-	resp = requests.get(API, params=PARAMS)
-	print(resp.json())
-	weather = resp.json()['weather'][0]['main']       # This is the weather status
-	fahrenheit = round(resp.json()['main']['temp'])
-	celcius = round((fahrenheit - 32) * .5556)        # Converting the Fahrenheit to Celcius
+    resp = requests.get(API, params=PARAMS)
+    print(resp.json())
+    weather = resp.json()['weather'][0]['main']       # This is the weather status
+    fahrenheit = round(resp.json()['main']['temp'])
+    celcius = round((fahrenheit - 32) * .5556)        # Converting the Fahrenheit to Celcius
 ```
 
 This is where the fun part begins: Sending the colors, animations, the brightness ect. accordingly to the weather to our Arduino.<br/>Feel free to play around with the values initialized at the very beginning.
 ```python
 elif weather == "Clear":
-		sendData("B=" + br_Clear)
-		sendData("D=" + dur_Clear)
-		sendData("C=" + clearColor)
-		sendData("A=" + ani_Clear)
+    sendData("B=" + br_Clear)
+    sendData("D=" + dur_Clear)
+    sendData("C=" + clearColor)
+    sendData("A=" + ani_Clear)
 ```
 
 Finally, we have two functions so the Arduino knows what's going on. The sendData() function & the awaitResponse() function:
