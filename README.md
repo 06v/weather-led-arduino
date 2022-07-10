@@ -105,10 +105,10 @@ def sendData(s):
 - [The Openweather API](https://openweathermap.org/api)
 
 ## Contact
-<p align="center">
-  <span><a href="https://github.com/06v/"><img src="https://socialize-md.vercel.app/api/badge/github" alt="github" /></a></span>
-  <span><a href="https://www.instagram.com/enesvierzwei/"><img src="https://socialize-md.vercel.app/api/badge/instagram" alt="instagram" /></a></span>
-  <span><a href="https://www.twitter.com/daddyenes/"><img src="https://socialize-md.vercel.app/api/badge/twitter" alt="twitter" /></a></span>
-  <span><a href="mailto:contact@enes.vip"><img src="https://socialize-md.vercel.app/api/badge/mail" alt="mail" /></a></span>
-  <span><a href="https://discords.com/bio/p/gore"><img src="https://socialize-md.vercel.app/api/badge/discord" alt="discord" /></a></span>
+<p align="left">
+  <span><a href="https://enes.vip">Website</a></span>
+  <span><a href="https://www.instagram.com/enesvierzwei/">Instagram</a></span>
+  <span><a href="https://www.twitter.com/daddyenes/">Twitter</a></span>
+  <span><a href="mailto:contact@enes.vip">Email</a></span>
+  <span><a href="https://discords.com/bio/p/gore">Discord</a></span>
 </p>
