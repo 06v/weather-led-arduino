@@ -9,10 +9,10 @@ AlaLedRgb rgbStrip;
 
 void setup()
 {
-  // Initialisieren unseres WS2812G RGB Strips
-  rgbStrip.initWS2812(NUMPIXELS, PIN);
+  // Initializing our WS2812B LED Strip
+  rgbStrip.initWS2812B(NUMPIXELS, PIN);
   
-  // Optional, Standard Animation falls keine vorgebeben in unserem PySerial Programm
+  // Optional, Standard Animation if theres no "A" parameter in the clientSide.py software
   rgbStrip.setAnimation(ALA_FADECOLORSLOOP, 5000, alaPalRgb);
 }
 
