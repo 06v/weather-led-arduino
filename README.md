@@ -1,7 +1,7 @@
 <h1 align="center">Weather Tracker - Arduino RGB LED Strip</h1>
 
 <div align="center">
-  <img src="https://media.discordapp.net/attachments/914194110330576906/995748567090216970/unknown.png?width=751&height=563" id="center">
+  <img src="https://media.discordapp.net/attachments/914194110330576906/995748567090216970/unknown.png?width=417&height=312" id="center">
   <p align="center">
     Created by Enes
   </p>
