@@ -20,7 +20,7 @@ API = "https://api.openweathermap.org/data/2.5/weather"
 API_KEY = ""
 ```
 
-That's needed in order to use the Openweather API.<br/>You will be running the script locally so the usage won't store your API key.
+That's needed in order to acces the Openweather API, we will retrieve our weather data through this.<br/>You will be running the script locally so the usage won't store your API key.
 
 Optionally you can edit the interval in which the weather is tracked. Currently it's at 600 seconds -> 10 minutes.
 ```python
