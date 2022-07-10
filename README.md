@@ -97,7 +97,7 @@ def sendData(s):
     arduino.flush()
 ```
 <div align="center">
-    <img src="https://media.discordapp.net/attachments/914194110330576906/995750084157386822/unknown.png?width=700&height=374" id="center">
+    <img src="https://media.discordapp.net/attachments/914194110330576906/995750084157386822/unknown.png?width=1000&height=300">
 </div>
 	
 ## Related books
