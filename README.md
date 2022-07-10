@@ -1,7 +1,7 @@
 <h1 align="center">Weather Tracker - Arduino RGB LED Strip</h1>
 
 <div align="center">
-  <img src="https://media.discordapp.net/attachments/914194110330576906/995748567090216970/unknown.png?width=751&height=563">
+  <img src="https://media.discordapp.net/attachments/914194110330576906/995748567090216970/unknown.png?width=751&height=563" id="center">
   <p align="center">
     Created by Enes
   </p>
@@ -97,9 +97,8 @@ def sendData(s):
     arduino.flush()
 ```
 
-<img src="https://media.discordapp.net/attachments/914194110330576906/995750084157386822/unknown.png">
+<img src="https://media.discordapp.net/attachments/914194110330576906/995750084157386822/unknown.png" id="center">
 
 ## Related books
 - [The ALA library](https://github.com/bportaluri/ALA)
 - [The Openweather API](https://openweathermap.org/api)
-- [C Programming for Arduino](https://www.packtpub.com/hardware-and-creative/c-programming-arduino?utm_source=github&utm_medium=repository&utm_campaign=9781849517584)
