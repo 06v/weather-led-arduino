@@ -40,7 +40,7 @@ Whilst the Arduino Port is equal to None - meaning not connected through USB - i
 while(port==None):
     port = getPort()
     if port==None:
-        print("[-] Failed to find an connected Arduino.\nRetrying in 5 seconds..")
+        print("[-] Failed to find the Arduino Port.\nRetrying in 5 seconds..")
 	time.sleep(5)
     try:
 	arduino = serial.Serial(port, 9600, timeout=1)
