@@ -25,12 +25,12 @@ That's needed in order to acces the Openweather API, we will retrieve our weathe
 Optionally you can edit the interval in which the weather is tracked. Currently it's at 600 seconds -> 10 minutes.
 ```python
 def main():
-	while True:
-		try:
-			time.sleep(600)
-			trackWeather()
-		except Exception as exc:
-      ...
+    while True:
+        try:
+            time.sleep(600)
+	    trackWeather()
+	except Exception as exc:
+            ...
 ```
 
 ## Features & how it works
