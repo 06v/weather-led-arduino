@@ -96,9 +96,10 @@ def sendData(s):
     time.sleep(.1)
     arduino.flush()
 ```
-
-<img src="https://media.discordapp.net/attachments/914194110330576906/995750084157386822/unknown.png" id="center">
-
+<div align="center">
+    <img src="https://media.discordapp.net/attachments/914194110330576906/995750084157386822/unknown.png" id="center">
+</div>
+	
 ## Related books
 - [The ALA library](https://github.com/bportaluri/ALA)
 - [The Openweather API](https://openweathermap.org/api)
