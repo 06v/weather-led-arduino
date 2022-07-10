@@ -35,7 +35,7 @@ def main():
 
 ## Features & how it works
 
-Whilst the Arduino Port is equal to None - meaning not connected through USB - it will keep checking the USB Ports of our devices (Raspberry Pi, Laptop, PC) for new plug-ins.<br/> If the Arduino has been plugged in to the device, it will automatically establish a connection using the Port
+Whilst the Arduino Port is equal to None - meaning not connected through USB - it will keep checking the USB Ports of our devices (Raspberry Pi, Laptop, PC) for new plug-ins. If the Arduino has been plugged in to the device, it will automatically establish a connection using the Port
 ```python
 while(port==None):
 	port = getPort()
