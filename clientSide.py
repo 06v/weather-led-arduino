@@ -46,7 +46,7 @@ Cold_Pal = "6"
 
 # Necessary Data for the weather API
 API = "https://api.openweathermap.org/data/2.5/weather"
-API_KEY = "5ccc9c303bab13affe67028893a9d06c"
+API_KEY = ""
 PARAMS = {"q": "YOUR_CITY", "units": "imperial", "APPID": API_KEY}
 
 os.system("cls")
